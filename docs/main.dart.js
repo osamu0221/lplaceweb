@@ -98038,71 +98038,72 @@ break
 case 1:return A.t(q,r)}})
 return A.u($async$AB,r)},
 oz(){return this.akz()},
-akz(){var s=0,r=A.v(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6
-var $async$oz=A.q(function(a7,a8){if(a7===1){o.push(a8)
-s=p}while(true)switch(s){case 0:a4={}
+akz(){var s=0,r=A.v(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8
+var $async$oz=A.q(function(a9,b0){if(a9===1){o.push(b0)
+s=p}while(true)switch(s){case 0:a6={}
 s=3
 return A.m($.aMn().DZ(!0),$async$oz)
-case 3:a5=a8
-if(a5==null||J.uS(a5.a).c==null){n.c.a_(t.J).f.cK(A.cN(null,null,null,null,null,B.n,null,A.Y("\u30d5\u30a1\u30a4\u30eb\u304c\u9078\u629e\u3055\u308c\u307e\u305b\u3093\u3067\u3057\u305f",null,null,null,null,null,null),null,B.T,null,null,null,null,null,null,null,null,null))
+case 3:a7=b0
+if(a7==null||J.uS(a7.a).c==null){n.c.a_(t.J).f.cK(A.cN(null,null,null,null,null,B.n,null,A.Y("\u30d5\u30a1\u30a4\u30eb\u304c\u9078\u629e\u3055\u308c\u307e\u305b\u3093\u3067\u3057\u305f",null,null,null,null,null,null),null,B.T,null,null,null,null,null,null,null,null,null))
 s=1
-break}f=a5.a
+break}f=a7.a
 e=J.cE(f)
 d=e.gaR(f).c
 d.toString
 m=d
 l=e.gaR(f).b
-f=Date.now()
-e=A.l(l)
-d=n.r
-k="shared_files/"+(d==null?"root":d)+"/"+(""+f+"_"+e)
+c=""+Date.now()+"_"+A.l(l)
+f=n.r
+if(f!=null&&f.length!==0){f.toString
+b="shared_files/"+f+"/"+c}else b="shared_files/"+c
+k=b
 f=l
 f=f==null?B.bz:new A.cD(f,B.cg,B.aR)
 e=$.aw()
 j=new A.fs(f,e)
 i=new A.fs(B.bz,e)
 h=new A.fs(B.bz,e)
-a4.a=!1
+a6.a=!1
 f=n.c
 f.toString
 s=4
-return A.m(A.jO(!1,new A.aDo(a4,l,j,i,h),f,t.y),$async$oz)
-case 4:if(a8!==!0){s=1
+return A.m(A.jO(!1,new A.aDo(a6,l,j,i,h),f,t.y),$async$oz)
+case 4:if(b0!==!0){s=1
 break}p=6
 f=$.Z
-c=(f==null?$.Z=$.aR():f).aL("[DEFAULT]")
+a=(f==null?$.Z=$.aR():f).aL("[DEFAULT]")
 f=$.b8()
-A.ac(c,f,!0)
-e=A.abf(new A.aL(c)).kD(k)
+A.ac(a,f,!0)
+e=A.abf(new A.aL(a)).kD(k)
 s=9
 return A.m(A.aS5(e.b,e.a.Md(m,null)),$async$oz)
 case 9:e=$.Z
-c=(e==null?$.Z=$.aR():e).aL("[DEFAULT]")
-A.ac(c,f,!0)
-e=A.cl(new A.aL(c))
+a=(e==null?$.Z=$.aR():e).aL("[DEFAULT]")
+A.ac(a,f,!0)
+e=A.cl(new A.aL(a))
 e=A.bg(e,e.gaA().az("shared_files"))
 d=B.c.d0(j.a.a).length!==0?B.c.d0(j.a.a):l
-b=B.c.d0(i.a.a)
-a4=a4.a
-a=a4?B.c.d0(h.a.a):null
-a0=A.yd(1000*Date.now())
-a1=n.r
-if(a1==null)a1="root"
-a2=$.Z
-c=(a2==null?$.Z=$.aR():a2).aL("[DEFAULT]")
-A.ac(c,f,!0)
-f=A.f6(new A.aL(c)).gec()
+a0=B.c.d0(i.a.a)
+a6=a6.a
+a1=a6?B.c.d0(h.a.a):null
+a2=A.yd(1000*Date.now())
+a3=n.r
+if(a3==null)a3="root"
+a4=$.Z
+a=(a4==null?$.Z=$.aR():a4).aL("[DEFAULT]")
+A.ac(a,f,!0)
+f=A.f6(new A.aL(a)).gec()
 f=f==null?null:f.a.c.a.a
 if(f==null)f="anonymous"
 s=10
-return A.m(e.F(0,A.a7(["title",d,"description",b,"originalFileName",l,"filePath",k,"isPasswordProtected",a4,"password",a,"timestamp",a0,"folderId",a1,"uploadedBy",f],t.N,t.z)),$async$oz)
+return A.m(e.F(0,A.a7(["title",d,"description",a0,"originalFileName",l,"filePath",k,"isPasswordProtected",a6,"password",a1,"timestamp",a2,"folderId",a3,"uploadedBy",f],t.N,t.z)),$async$oz)
 case 10:n.c.a_(t.J).f.cK(A.cN(null,null,null,null,null,B.n,null,A.Y("\u2705 \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u6210\u529f: "+A.l(l),null,null,null,null,null,null),null,B.T,null,null,null,null,null,null,null,null,null))
 p=2
 s=8
 break
 case 6:p=5
-a6=o.pop()
-g=A.ad(a6)
+a8=o.pop()
+g=A.ad(a8)
 A.dH("\u274c \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u5931\u6557: "+A.l(g))
 n.c.a_(t.J).f.cK(A.cN(null,null,null,null,null,B.n,null,A.Y("\u274c \u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u5931\u6557: "+A.l(g),null,null,null,null,null,null),null,B.T,null,null,null,null,null,null,null,null,null))
 s=8
