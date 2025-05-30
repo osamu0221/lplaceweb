@@ -97832,7 +97832,7 @@ n=A.bZ(new A.aC(m))
 return A.tQ(new A.aAi(),A.b8(n,n.gaz().ar("users")).b4(r).ja(),t.Pi)
 case 11:return B.EW
 default:return A.dv(A.Z(q.r[s]+" \u306e\u5185\u5bb9\u306f\u8fd1\u65e5\u5b9f\u88c5\u4e88\u5b9a\u3067\u3059",p,p,p,p,p,p),p,p)}},
-K(a){var s=null,r=A.bI(a,s,t.w).w.a.a<600,q=A.mG(s,new A.aAp(this,r),12),p=A.j3(s,s,s,r?new A.e0(new A.aAq(),s):s,B.a__),o=r?new A.OE(A.tw(!0,q,B.V,!0),s):s
+K(a){var s=null,r=A.bI(a,s,t.w).w.a.a<600,q=A.mG(s,new A.aAp(this,r),12),p=A.j3(s,s,s,r?new A.e0(new A.aAq(),s):s,B.ZZ),o=r?new A.OE(A.tw(!0,q,B.V,!0),s):s
 return A.hh(p,s,r?new A.b1(B.d_,this.PP(),s):A.dq(A.b([A.e7(s,A.tw(!0,q,B.V,!0),B.w,B.js,s,s,s,s,s,s,s,s,220),A.eP(new A.b1(B.jX,this.PP(),s),1)],t.p),B.y,B.u,B.L),o,s)}}
 A.aAt.prototype={
 $1(a){var s=this.a
@@ -98131,7 +98131,7 @@ m=m.as.h(0,"department")
 n=A.cC(A.b([n,s,r,q,A.Z("\u6240\u5c5e: "+A.l(m==null?"\u672a\u8a2d\u5b9a":m),p,p,p,A.d0(p,p,B.l,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],t.p),B.aW,B.u,B.L)}else n=A.dv(A.Z("\u30e6\u30fc\u30b6\u30fc\u3092\u9078\u629e\u3057\u3066\u304f\u3060\u3055\u3044",p,p,p,A.d0(p,p,B.bn,p,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),p,p)
 m=t.p
 n=A.co(A.dq(A.b([l,new A.UH(p),A.eP(n,3)],m),B.y,B.u,B.L),400,17976931348623157e292)
-return A.ik(A.b([A.d8(!1,B.a_b,p,p,p,p,p,p,new A.aBl(a),p,p)],m),n,B.ZY)},
+return A.ik(A.b([A.d8(!1,B.a_b,p,p,p,p,p,p,new A.aBl(a),p,p)],m),n,B.ZX)},
 $S:77}
 A.aBk.prototype={
 $1(a){var s=null,r=a.cz(0).h(0,"name")
@@ -99259,7 +99259,7 @@ A.aFL.prototype={
 $1(a){var s,r=null,q={}
 q.a=""
 s=A.fw(!0,B.at,!1,r,!0,B.n,r,A.h_(),r,r,r,r,r,r,2,B.KF,B.C,!0,r,!0,r,!1,r,B.aq,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,new A.aFJ(q),r,r,r,!1,r,r,!1,r,!0,r,B.aD,r,r,B.ai,B.af,r,r,r,r,r,r,r,!0,B.T,r,B.aN,r,r,r,r)
-return A.ik(A.b([A.d8(!1,B.ZQ,r,r,r,r,r,r,new A.aFK(q,this.a,a,this.b),r,r)],t.p),s,B.a_2)},
+return A.ik(A.b([A.d8(!1,B.ZP,r,r,r,r,r,r,new A.aFK(q,this.a,a,this.b),r,r)],t.p),s,B.a_1)},
 $S:39}
 A.aFJ.prototype={
 $1(a){return this.a.a=a},
@@ -99558,7 +99558,7 @@ q=A.b([],t.VO)
 if(k)q.push(B.Vl)
 q.push(A.cH(j,B.fB,n+" \u3055\u3093\u304b\u3089ToDo\u300c"+o+"\u300d\u3092\u53d7\u4fe1\u3057\u3066\u3044\u307e\u3059"))
 q=A.amE(j,j,j,B.br,j,j,!0,j,A.cH(q,j,j),B.T,j,j,B.a2,B.ap)
-return A.iB(!1,j,j,j,!0,j,j,!0,!1,j,j,j,!1,j,j,j,j,j,q,k?A.vV(!1,B.a_0,j,j,j,j,j,j,new A.aGc(s,r),j,j):B.a_f,j)},
+return A.iB(!1,j,j,j,!0,j,j,!0,!1,j,j,j,!1,j,j,j,j,j,q,k?A.vV(!1,B.a__,j,j,j,j,j,j,new A.aGc(s,r),j,j):B.a_f,j)},
 $S:93}
 A.aGc.prototype={
 $0(){var s=0,r=A.v(t.H),q,p=this,o,n,m,l,k
@@ -99589,7 +99589,7 @@ case"\u9001\u4fe1":return B.a_m
 case"\u53d7\u4fe1":return B.Br
 default:return B.Br}},
 B9(a){this.P(new A.aGe(this,a))},
-K(a){var s=this,r=null,q=A.j3(A.b([A.d8(!1,B.ZS,r,r,r,r,r,r,new A.aGf(s),r,r),A.d8(!1,B.ZZ,r,r,r,r,r,r,new A.aGg(s),r,r),A.d8(!1,B.a_a,r,r,r,r,r,r,new A.aGh(s),r,r),A.d8(!1,B.a_9,r,r,r,r,r,r,new A.aGi(s),r,r)],t.p),r,r,r,B.Bq),p=A.aO8(B.FW),o=A.jV(12),n=A.bI(a,r,t.w).w
+K(a){var s=this,r=null,q=A.j3(A.b([A.d8(!1,B.ZR,r,r,r,r,r,r,new A.aGf(s),r,r),A.d8(!1,B.ZY,r,r,r,r,r,r,new A.aGg(s),r,r),A.d8(!1,B.a_a,r,r,r,r,r,r,new A.aGh(s),r,r),A.d8(!1,B.a_9,r,r,r,r,r,r,new A.aGi(s),r,r)],t.p),r,r,r,B.Bq),p=A.aO8(B.FW),o=A.jV(12),n=A.bI(a,r,t.w).w
 return A.hh(q,r,new A.b1(B.jX,A.e7(r,s.a9J(),B.w,r,r,new A.cs(B.nF,r,p,o,r,r,B.ax),r,n.a.b*0.75,r,B.jU,r,r,1/0),r),r,r)}}
 A.aGe.prototype={
 $0(){this.a.d=this.b},
@@ -99719,7 +99719,7 @@ A.aGr.prototype={
 $2(a,b){var s=this,r=null,q=s.b,p=t.p,o=A.b([A.fw(!0,B.at,!1,r,!0,B.n,r,A.h_(),q,r,r,r,r,r,2,B.KE,B.C,!0,r,!0,r,!1,r,B.aq,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,r,!1,r,!0,r,B.aD,r,r,B.ai,B.af,r,r,r,r,r,r,r,!0,B.T,r,B.aN,r,r,r,r),B.U7,B.a_c],p),n=s.c,m=s.d
 B.b.a2(o,new A.W(n,new A.aGo(m,b),A.U(n).i("W<1,h>")))
 o=A.tM(A.cC(o,B.y,B.u,B.al),r)
-return A.ik(A.b([A.d8(!1,B.a_d,r,r,r,r,r,r,new A.aGp(a),r,r),A.d8(!1,B.a_e,r,r,r,r,r,r,new A.aGq(s.a,q,m,a),r,r)],p),o,B.a_3)},
+return A.ik(A.b([A.d8(!1,B.a_d,r,r,r,r,r,r,new A.aGp(a),r,r),A.d8(!1,B.a_e,r,r,r,r,r,r,new A.aGq(s.a,q,m,a),r,r)],p),o,B.a_2)},
 $S:77}
 A.aGo.prototype={
 $1(a){var s=null,r=J.a0(a),q=A.ay(r.h(a,"uid")),p=this.a
@@ -100041,7 +100041,7 @@ j=A.dK(A.cd(j),A.bC(j),A.ec(j),0,0,0,0)
 l=A.dK(A.cd(l),A.bC(l),A.ec(l),0,0,0,0)
 k=A.dK(A.cd(k),A.bC(k),A.ec(k),0,0,0,0)
 s=Date.now()
-r=A.vV(!1,B.a_1,n,n,n,n,n,n,new A.au9(o),n,n)
+r=A.vV(!1,B.a_0,n,n,n,n,n,n,new A.au9(o),n,n)
 q=o.e
 q=A.b8(q,q.gaz().ar("schedules"))
 p=o.d
@@ -100229,7 +100229,7 @@ s=p.gcl()
 p=this.a
 if(p.w){r=A.U(s).i("aE<1>")
 q=A.Y(new A.aE(s,new A.au2(p),r),!0,r.i("n.E"))}else q=s
-if(q.length===0)return B.ZX
+if(q.length===0)return B.ZW
 r=A.U(q).i("W<1,hd>")
 return A.cC(A.Y(new A.W(q,new A.au3(p),r),!0,r.i("af.E")),B.y,B.u,B.L)},
 $S:136}
@@ -105946,23 +105946,23 @@ B.ne=new A.o0(2,"week")
 B.nf=new A.Nj(0,"rear")
 B.EO=new A.Nj(1,"front")
 B.ES=new A.vc(null,null,null,null,null,null,null)
-B.ZT=new A.bY("\u30ed\u30b0\u30a4\u30f3\u60c5\u5831\u304c\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
-B.ng=new A.h1(B.J,null,null,B.ZT,null)
-B.ZW=new A.bY("\u53d7\u4fe1\u3057\u305fToDo\u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
-B.ET=new A.h1(B.J,null,null,B.ZW,null)
-B.a_4=new A.bY("\u9001\u4fe1\u6e08\u307f ToDo \u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
-B.EU=new A.h1(B.J,null,null,B.a_4,null)
+B.ZS=new A.bY("\u30ed\u30b0\u30a4\u30f3\u60c5\u5831\u304c\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
+B.ng=new A.h1(B.J,null,null,B.ZS,null)
+B.ZV=new A.bY("\u53d7\u4fe1\u3057\u305fToDo\u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
+B.ET=new A.h1(B.J,null,null,B.ZV,null)
+B.a_3=new A.bY("\u9001\u4fe1\u6e08\u307f ToDo \u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
+B.EU=new A.h1(B.J,null,null,B.a_3,null)
 B.a39=new A.as4(0,"material")
 B.ni=new A.vh(null,null,null,null,null,null,null)
 B.fR=new A.h1(B.J,null,null,B.ni,null)
-B.ZU=new A.bY("\u65b0\u7740ToDo\u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
-B.EV=new A.h1(B.J,null,null,B.ZU,null)
-B.ZR=new A.bY("\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u7de8\u96c6\u4e2d...",null,null,null,null,null,null,null,null)
-B.EW=new A.h1(B.J,null,null,B.ZR,null)
+B.ZT=new A.bY("\u65b0\u7740ToDo\u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
+B.EV=new A.h1(B.J,null,null,B.ZT,null)
+B.ZQ=new A.bY("\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u7de8\u96c6\u4e2d...",null,null,null,null,null,null,null,null)
+B.EW=new A.h1(B.J,null,null,B.ZQ,null)
 B.ZO=new A.bY("\u30ed\u30b0\u30a4\u30f3\u30a8\u30e9\u30fc",null,null,null,null,null,null,null,null)
 B.EX=new A.h1(B.J,null,null,B.ZO,null)
-B.ZV=new A.bY("\u30ed\u30b0\u30a4\u30f3\u60c5\u5831\u304c\u53d6\u5f97\u3067\u304d\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
-B.EY=new A.h1(B.J,null,null,B.ZV,null)
+B.ZU=new A.bY("\u30ed\u30b0\u30a4\u30f3\u60c5\u5831\u304c\u53d6\u5f97\u3067\u304d\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
+B.EY=new A.h1(B.J,null,null,B.ZU,null)
 B.EZ=new A.vf(null,null,null,null,null,null,null,null,null)
 B.F_=new A.Bd(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.nh=new A.ew(0,B.m)
@@ -107919,11 +107919,11 @@ B.a33=new A.R3(0,"start")
 B.QO=new A.R3(1,"end")
 B.IN=new A.aA(16,12,16,12)
 B.Yv=new A.x(!0,null,null,null,null,null,18,B.cd,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_5=new A.bY("\u53d7\u4fe1\u3057\u305fToDo",null,B.Yv,null,null,null,null,null,null)
-B.QP=new A.b1(B.IN,B.a_5,null)
+B.a_4=new A.bY("\u53d7\u4fe1\u3057\u305fToDo",null,B.Yv,null,null,null,null,null,null)
+B.QP=new A.b1(B.IN,B.a_4,null)
 B.dh=new A.x(!0,null,null,null,null,null,null,B.cd,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ZP=new A.bY("\ud83d\udee0\ufe0f \u30d0\u30fc\u30b8\u30e7\u30f3 1.1.6 - \u5909\u66f4\u5185\u5bb9\uff1a\n\u30fb\u30ea\u30d7\u30e9\u30a4\u6a5f\u80fd\u304c\u5b9f\u88c5\u3055\u308c\u307e\u3057\u305f\u3002\u53f3\u30af\u30ea\u30c3\u30af\u3082\u3057\u304f\u306f\u9577\u62bc\u3057\u3067\u6a5f\u80fd\u3057\u307e\u3059\u3002\n\u30fb\u30c8\u30fc\u30af\u5185\u30ea\u30f3\u30af\u3092\u8e0f\u3080\u3068\u5225\u30da\u30fc\u30b8\u306b\u98db\u3076\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u3002\n\u30c8\u30fc\u30af\u5185\u30c6\u30ad\u30b9\u30c8\u3092\u30b3\u30d4\u30fc\u3067\u304d\u308b\u3088\u3046\u306b\u3057\u307e\u3057\u305f\u3002\n\n\ud83d\udee0\ufe0f \u30d0\u30fc\u30b8\u30e7\u30f3 1.1.5 - \u5909\u66f4\u5185\u5bb9\uff1a\n\u30fb\u500b\u5225\u30c8\u30fc\u30af\u306b\u5bfe\u3057\u3066\u306e\u30c8\u30fc\u30af\u540d\u5909\u66f4\u30dc\u30bf\u30f3\u3092\u975e\u8868\u793a\u306b\u3057\u307e\u3057\u305f\u3002\n\u30fb\u30c8\u30fc\u30af\u30ea\u30b9\u30c8\u306e\u3061\u3089\u3064\u304d\u3092\u4fee\u6b63\u3057\u307e\u3057\u305f\u3002\n\n\ud83d\udee0\ufe0f \u30d0\u30fc\u30b8\u30e7\u30f3 1.1.4 - \u5909\u66f4\u5185\u5bb9\uff1a\n\u30fb\u30c8\u30fc\u30af\u30eb\u30fc\u30e0\u306e\u975e\u8868\u793a\n\uff08\u672a\u8aad\u30e1\u30c3\u30bb\u30fc\u30b8\u304c\u65b0\u7740\u3059\u308c\u3070\u5fa9\u6d3b\u3057\u307e\u3059\u3002\u306a\u304a\u3001\u73fe\u72b6\u76f8\u624b\u304b\u3089\u30e1\u30c3\u30bb\u30fc\u30b8\u304c\u6765\u306a\u3044\u3068\u5fa9\u6d3b\u3057\u307e\u305b\u3093\u3002\u672c\u5f53\u306b\u4e0d\u8981\u306a\u30c8\u30fc\u30af\u30eb\u30fc\u30e0\u306b\u5bfe\u3057\u3066\u884c\u3063\u3066\u304f\u3060\u3055\u3044\u3002\uff09\n\u30fb\u30b0\u30eb\u30fc\u30d7\u30c8\u30fc\u30af\u540d\u306e\u7de8\u96c6\u304c\u53ef\u80fd\u306b\u306a\u308a\u307e\u3057\u305f\u3002\n\u30fb\u30c8\u30fc\u30af\u30ea\u30b9\u30c8\u3067\u306e\u30b0\u30eb\u30fc\u30d7\u30c8\u30fc\u30af\u540d\u306e\u8868\u793a\u306e\u4ed5\u65b9\u304c\u5909\u308f\u308a\u307e\u3057\u305f\u3002\n\u30c8\u30fc\u30af\u30ea\u30b9\u30c8\u304c\u6700\u65b0\u30c8\u30fc\u30af\u9806\u306b\u30bd\u30fc\u30c8\u3055\u308c\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u3002",null,B.dh,null,null,null,null,null,null)
-B.QQ=new A.b1(B.oh,B.ZP,null)
+B.a_5=new A.bY("\ud83d\udee0\ufe0f \u30d0\u30fc\u30b8\u30e7\u30f3 1.1.6 - \u5909\u66f4\u5185\u5bb9\uff1a\n\u30fb\u30ea\u30d7\u30e9\u30a4\u53ca\u3073\u30b3\u30d4\u30fc\u6a5f\u80fd\u304c\u5b9f\u88c5\u3055\u308c\u307e\u3057\u305f\u3002\u30af\u30ea\u30c3\u30af\u3082\u3057\u304f\u306f\u30bf\u30c3\u30d7\u9577\u62bc\u3057\u3067\u6a5f\u80fd\u3057\u307e\u3059\u3002\n\n\ud83d\udee0\ufe0f \u30d0\u30fc\u30b8\u30e7\u30f3 1.1.5 - \u5909\u66f4\u5185\u5bb9\uff1a\n\u30fb\u500b\u5225\u30c8\u30fc\u30af\u306b\u5bfe\u3057\u3066\u306e\u30c8\u30fc\u30af\u540d\u5909\u66f4\u30dc\u30bf\u30f3\u3092\u975e\u8868\u793a\u306b\u3057\u307e\u3057\u305f\u3002\n\u30fb\u30c8\u30fc\u30af\u30ea\u30b9\u30c8\u306e\u3061\u3089\u3064\u304d\u3092\u4fee\u6b63\u3057\u307e\u3057\u305f\u3002\n\n\ud83d\udee0\ufe0f \u30d0\u30fc\u30b8\u30e7\u30f3 1.1.4 - \u5909\u66f4\u5185\u5bb9\uff1a\n\u30fb\u30c8\u30fc\u30af\u30eb\u30fc\u30e0\u306e\u975e\u8868\u793a\n\uff08\u672a\u8aad\u30e1\u30c3\u30bb\u30fc\u30b8\u304c\u65b0\u7740\u3059\u308c\u3070\u5fa9\u6d3b\u3057\u307e\u3059\u3002\u306a\u304a\u3001\u73fe\u72b6\u76f8\u624b\u304b\u3089\u30e1\u30c3\u30bb\u30fc\u30b8\u304c\u6765\u306a\u3044\u3068\u5fa9\u6d3b\u3057\u307e\u305b\u3093\u3002\u672c\u5f53\u306b\u4e0d\u8981\u306a\u30c8\u30fc\u30af\u30eb\u30fc\u30e0\u306b\u5bfe\u3057\u3066\u884c\u3063\u3066\u304f\u3060\u3055\u3044\u3002\uff09\n\u30fb\u30b0\u30eb\u30fc\u30d7\u30c8\u30fc\u30af\u540d\u306e\u7de8\u96c6\u304c\u53ef\u80fd\u306b\u306a\u308a\u307e\u3057\u305f\u3002\n\u30fb\u30c8\u30fc\u30af\u30ea\u30b9\u30c8\u3067\u306e\u30b0\u30eb\u30fc\u30d7\u30c8\u30fc\u30af\u540d\u306e\u8868\u793a\u306e\u4ed5\u65b9\u304c\u5909\u308f\u308a\u307e\u3057\u305f\u3002\n\u30c8\u30fc\u30af\u30ea\u30b9\u30c8\u304c\u6700\u65b0\u30c8\u30fc\u30af\u9806\u306b\u30bd\u30fc\u30c8\u3055\u308c\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u3002",null,B.dh,null,null,null,null,null,null)
+B.QQ=new A.b1(B.oh,B.a_5,null)
 B.a_8=new A.bY("\ud83d\udccc \u53d7\u4fe1ToDo:",null,B.dh,null,null,null,null,null,null)
 B.QR=new A.b1(B.d_,B.a_8,null)
 B.w1=new A.Ef(null)
@@ -108642,16 +108642,16 @@ B.VE=new A.x(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.ZL=new A.eo(B.Xr,B.Wt,B.Xs,B.XZ,B.W3,B.Wa,B.WM,B.XN,B.WZ,B.Yw,B.Vv,B.VM,B.Yp,B.YL,B.VE)
 B.ZM=new A.bY("\u30ed\u30b0\u30a2\u30a6\u30c8",null,null,null,null,null,null,null,null)
 B.ZN=new A.bY("\u65b0\u3057\u3044ToDo\u3092\u4f5c\u6210",null,null,null,null,null,null,null,null)
-B.ZQ=new A.bY("\u8ffd\u52a0",null,null,null,null,null,null,null,null)
-B.ZS=new A.bY("\u53d7\u4fe1ToDo",null,B.fB,null,null,null,null,null,null)
-B.ZX=new A.bY("\u4e88\u5b9a\u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
-B.ZY=new A.bY("\u30e6\u30fc\u30b6\u30fc\u4e00\u89a7",null,null,null,null,null,null,null,null)
-B.ZZ=new A.bY("\u7ba1\u7406ToDo",null,B.fB,null,null,null,null,null,null)
-B.a__=new A.bY("LPlace \u30e1\u30cb\u30e5\u30fc",null,null,null,null,null,null,null,null)
-B.a_0=new A.bY("\u78ba\u8a8d\u3057\u307e\u3057\u305f",null,null,null,null,null,null,null,null)
-B.a_1=new A.bY("\u4e88\u5b9a\u5e0c\u671b\u3092\u8ffd\u52a0",null,null,null,null,null,null,null,null)
-B.a_2=new A.bY("\u5c0fToDo\u3092\u8ffd\u52a0",null,null,null,null,null,null,null,null)
-B.a_3=new A.bY("ToDo\u3092\u9001\u4fe1",null,null,null,null,null,null,null,null)
+B.ZP=new A.bY("\u8ffd\u52a0",null,null,null,null,null,null,null,null)
+B.ZR=new A.bY("\u53d7\u4fe1ToDo",null,B.fB,null,null,null,null,null,null)
+B.ZW=new A.bY("\u4e88\u5b9a\u306f\u3042\u308a\u307e\u305b\u3093",null,null,null,null,null,null,null,null)
+B.ZX=new A.bY("\u30e6\u30fc\u30b6\u30fc\u4e00\u89a7",null,null,null,null,null,null,null,null)
+B.ZY=new A.bY("\u7ba1\u7406ToDo",null,B.fB,null,null,null,null,null,null)
+B.ZZ=new A.bY("LPlace \u30e1\u30cb\u30e5\u30fc",null,null,null,null,null,null,null,null)
+B.a__=new A.bY("\u78ba\u8a8d\u3057\u307e\u3057\u305f",null,null,null,null,null,null,null,null)
+B.a_0=new A.bY("\u4e88\u5b9a\u5e0c\u671b\u3092\u8ffd\u52a0",null,null,null,null,null,null,null,null)
+B.a_1=new A.bY("\u5c0fToDo\u3092\u8ffd\u52a0",null,null,null,null,null,null,null,null)
+B.a_2=new A.bY("ToDo\u3092\u9001\u4fe1",null,null,null,null,null,null,null,null)
 B.Bq=new A.bY("ToDo\u7ba1\u7406",null,null,null,null,null,null,null,null)
 B.a_6=new A.bY("\u9001\u4fe1\u6e08\u307fToDo\u4e00\u89a7",null,null,null,null,null,null,null,null)
 B.a_7=new A.bY("\u4f5c\u6210",null,null,null,null,null,null,null,null)
