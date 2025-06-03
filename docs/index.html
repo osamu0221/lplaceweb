@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/lplaceweb/">
+  <base href="/lplace_debug/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
 
-  <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="lplace">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>lplace</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-messaging-compat.js"></script>
+  <script>
+    // あなたのFirebaseプロジェクトの構成情報
+    const firebaseConfig = {
+      apiKey: "AIzaSyA4O0XxERBTymf5d4WwQJ1HnegoWnw9vdc", // あなたの実際のAPIキーに置き換えてください
+      authDomain: "npo-database-351f0.firebaseapp.com",
+      projectId: "npo-database-351f0",
+      storageBucket: "npo-database-351f0.appspot.com", //  .appspot.com か確認してください
+      messagingSenderId: "383958642228",
+      appId: "1:383958642228:web:078aaf82853e2ed99d6461",
+      measurementId: "G-Y2SXMGQK86" // ある場合
+    };
+    // Firebaseを初期化
+    firebase.initializeApp(firebaseConfig);
+    // Firebase Cloud Messaging を初期化し、サービスへの参照を取得
+    const messaging = firebase.messaging();
+
+    // (オプション) トークンが更新された場合の処理
+    messaging.onTokenRefresh(() => {
+      messaging.getToken().then((refreshedToken) => {
+        console.log('FCM Token refreshed.');
+        // TODO: この更新されたトークンをサーバーに送信します。
+        // (例: Dart側と連携してユーザーのDBに新しいトークンを保存する処理を呼び出す)
+      }).catch((err) => {
+        console.log('Unable to retrieve refreshed token ', err);
+      });
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
