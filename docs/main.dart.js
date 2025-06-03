@@ -49084,15 +49084,16 @@ $1(a){return B.c.oe(a,"messaging/","")},
 $S:22}
 A.aiY.prototype={
 i_(a){return this.a3n(a)},
-a3n(a){var s=0,r=A.r(t.N),q,p=2,o=[],n=this,m,l,k,j,i
+a3n(a){var s=0,r=A.r(t.N),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$i_=A.n(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:p=4
 k=self.firebase_messaging
+j=a==null?null:t.e.a({vapidKey:a})
 s=7
-return A.l(A.cE(k.getToken(n.a,null),t.X),$async$i_)
-case 7:k=c
-k.toString
-m=A.aj(k)
+return A.l(A.cE(k.getToken(n.a,j),t.X),$async$i_)
+case 7:j=c
+j.toString
+m=A.aj(j)
 q=m
 s=1
 break
@@ -49100,12 +49101,12 @@ p=2
 s=6
 break
 case 4:p=3
-i=o.pop()
-l=A.a3(i)
+h=o.pop()
+l=A.a3(h)
 if(B.c.n(J.cM(l).toLowerCase(),"no active service worker")&&$.aSL){$.aSL=!1
 q=n.i_(a)
 s=1
-break}throw i
+break}throw h
 s=6
 break
 case 3:s=2
@@ -101812,8 +101813,9 @@ aeZ(a){var s=0,r=A.r(t.H),q=1,p=[],o=this,n,m,l,k
 var $async$rf=A.n(function(b,c){if(b===1){p.push(c)
 s=q}while(true)switch(s){case 0:A.aF("\u2605\u2605\u2605 [NotificationService] Attempting to get FCM token... \u2605\u2605\u2605")
 q=3
+n=null
 s=6
-return A.l(o.a.gHI().i_(null),$async$rf)
+return A.l(o.a.gHI().i_("BDJkgVWC4sy1-dt3Ritn7wDMVlQRFjaKdnqXHx8fp5IngGhq1X1DY-ammdH-AqSv4YFcS6VdbQx8ncoTsDaQQ8g"),$async$rf)
 case 6:n=c
 A.aF("\u2605\u2605\u2605 [NotificationService] FCM Token received: "+A.k(n)+" \u2605\u2605\u2605")
 s=n!=null&&J.bR(n)!==0?7:9
