@@ -101225,7 +101225,7 @@ uo(){var s=0,r=A.r(t.b5),q,p=this,o,n,m
 var $async$uo=A.n(function(a,b){if(a===1)return A.o(b,r)
 while(true)switch(s){case 0:m=p.a
 s=3
-return A.l(A.ba(m,m.gaB().au("chats")).o5("lastUpdatedAt",!0).ci(0),$async$uo)
+return A.l(A.ba(m,m.gaB().au("chats")).o5("createdAt",!0).ci(0),$async$uo)
 case 3:m=b.gd3()
 o=A.Y(m).i("X<1,ab<m,@>>")
 n=A.W(new A.X(m,new A.a7h(),o),!0,o.i("af.E"))
@@ -101244,7 +101244,7 @@ a3p(a){var s=0,r=A.r(t.b5),q,p=this,o,n,m
 var $async$uC=A.n(function(b,c){if(b===1)return A.o(c,r)
 while(true)switch(s){case 0:m=p.a
 s=3
-return A.l(A.ba(m,m.gaB().au("chats")).qn(0,"members",a).o5("lastUpdatedAt",!0).ci(0),$async$uC)
+return A.l(A.ba(m,m.gaB().au("chats")).qn(0,"members",a).o5("createdAt",!0).ci(0),$async$uC)
 case 3:m=c.gd3()
 o=A.Y(m).i("X<1,ab<m,@>>")
 n=A.W(new A.X(m,new A.a7r(),o),!0,o.i("af.E"))
